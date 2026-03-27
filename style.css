@@ -2,7 +2,7 @@ body {
   font-family: 'Funnel Sans', sans-serif;
   margin: 0;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
   color: DarkSlateGray
 }
@@ -10,13 +10,34 @@ body {
 h1 {
   font-family: 'Funnel Sans', sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   color: DarkSlateGreen
 }
 
 a {
   padding: 1rem 1rem 1rem 2rem;
+  font-family: 'Funnel Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: DarkSlateGreen
+}
+
+a:link {
+  color: DarkSlateBlue;
+}
+
+a:visited {
+  color: Indigo;
+}
+
+a:hover {
+  color: MediumSlateBlue;
+}
+
+a:active {
+  color: blue;
 }
 
 div {
