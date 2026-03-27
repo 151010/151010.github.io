@@ -1,8 +1,10 @@
 body {
   font-family: 'Funnel Sans', sans-serif;
+  margin: 0;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  color: DarkSlateGray
 }
 
 h1 {
@@ -10,8 +12,18 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: DarkSlateGreen
+}
+
+a {
+  padding: 1rem 1rem 1rem 2rem;
 }
 
 div {
-  padding: 2.5rem 1.25rem 1.25rem 6rem;
+  box-sizing: border-box;
+  margin: 0rem;
+  background-color: DarkSeaGreen;
+  border: 1rem solid ;
+  height: 100vh;
+  padding: 3.5rem 1.25rem 0rem 6rem;
 }
